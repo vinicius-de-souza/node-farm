@@ -8,5 +8,5 @@ HTML and CSS templates provided by course itself.
 
 Some screenshots of the project:
 
-![Overview](https://ibb.co/ZgkdCc2)
-![Product-page](https://ibb.co/pRhn40B)
+![Overview](node-farm/Screenshot_1.png?raw=true)
+![Product-page](node-farm/Screenshot_2.png?raw=true)
