@@ -4,7 +4,7 @@
 
 A little bit out of scope as back-end is the main focus of this course, but not necessarily useless as it gives me at leats a sense of how things work in the front-end.
 
-<b>This project mainly taught me: dinamically replaced elements on HTML, URL routing & general JSON usage.</b>
+<b>This project mainly taught me: dinamically replacing elements on HTML, URL routing & general JSON usage.</b>
 
 HTML and CSS templates provided by the course itself.
 
