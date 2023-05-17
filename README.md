@@ -8,5 +8,5 @@ HTML and CSS templates provided by course itself.
 
 Some screenshots of the project:
 
-![Overview](node-farm/Screenshot_1.png?raw=true)
-![Product-page](node-farm/Screenshot_2.png?raw=true)
+![Overview](/Screenshot_1.png?raw=true)
+![Product-page](/Screenshot_2.png?raw=true)
