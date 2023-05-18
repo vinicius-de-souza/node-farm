@@ -2,37 +2,6 @@ const fs = require('fs');
 const http = require('http');
 const url = require('url');
 
-//////////////////////
-//files
-
-
-//Blocking
-/*
-const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
-const textOut = `This is what we know about the avocado: ${textIn} \n Created on ${Date.now()}`;
-fs.writeFileSync('./txt/output.txt', textOut);
-console.log('File written');
-
-
-//Non-blocking
-fs.readFile('./txt/start.txt', 'utf-8', (err, data1) =>{
-    fs.readFile(`./txt/${data1}.txt`, 'utf-8', (err, data2) => {
-        console.log(data2);
-            fs.readFile(`./txt/append.txt`, 'utf-8', (err, data3) => {
-                const textAppended = `${data2} \n ${data3}`;
-                fs.writeFile(`./txt/output-append.txt`, textAppended, 'utf-8', err => {
-                    console.log('File written.')
-                })
-        });
-    });
-});
-
-console.log('Will read file!')
-*/
-
-//////////////////
-//server
-
 const replaceTemplate = (template, product) => {
     let output = template.replace(/{%PRODUCT_NAME%}/g, product.productName);
     output = output.replace(/{%IMAGE%}/g, product.image);
